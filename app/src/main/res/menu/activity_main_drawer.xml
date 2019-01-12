@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Type of Events:">
+    <menu>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/star_big_on"
+            android:title="Art/Humanities" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Stem" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Greek Life" />
+    </menu>
+    </item>
+
+    <item android:title="What Events are Happening:">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/arrow_up_float"
+                android:title="Today" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/arrow_up_float"
+                android:title="Tommorow" />
+        </menu>
+    </item>
+
+    <item android:title="Having Trouble?">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Contact us" />
+
+        </menu>
+    </item>
+
+
+
+</menu>
