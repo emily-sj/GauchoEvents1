@@ -25,6 +25,36 @@
         <activity
             android:name=".ArtActivity"
             android:label="@string/title_activity_art"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Stem"
+            android:label="@string/title_activity_stem"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sports"
+            android:label="@string/title_activity_sports"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GreekLife"
+            android:label="@string/title_activity_greek_life"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Today"
+            android:label="@string/title_activity_today"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tomorrow"
+            android:label="@string/title_activity_tomorrow"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

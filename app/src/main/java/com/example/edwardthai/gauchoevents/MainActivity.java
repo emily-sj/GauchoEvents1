@@ -93,14 +93,25 @@ public class    MainActivity extends AppCompatActivity
             startActivity(i);
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+            Intent i = new Intent(this, Stem.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_slideshow) {
+            Intent i = new Intent(this, Sports.class);
+            startActivity(i);
+
 
         } else if (id == R.id.nav_manage) {
+            Intent i = new Intent(this, GreekLife.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_share) {
+            Intent i = new Intent(this, Today.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_send) {
+            Intent i = new Intent(this, Tomorrow.class);
+            startActivity(i);
 
         }
 
