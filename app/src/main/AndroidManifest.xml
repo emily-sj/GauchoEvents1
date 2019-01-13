@@ -22,11 +22,6 @@
         <activity
             android:name=".Activity2"
             android:parentActivityName=".MainActivity" />
-
-        <activity
-            android:name=".ArtActivity"
-            android:label="@string/title_activity_art"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Stem"
             android:label="@string/title_activity_stem"
@@ -56,10 +51,8 @@
         <activity
             android:name=".Contact"
             android:label="@string/title_activity_contact"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
-
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ArtActivity"></activity>
     </application>
 
 </manifest>
