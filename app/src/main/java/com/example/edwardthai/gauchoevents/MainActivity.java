@@ -12,9 +12,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Intent;
 
 public class    MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +84,9 @@ public class    MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
+
+            Intent i = new Intent(this, testactivity.class);
+            startActivity(i);
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
 
