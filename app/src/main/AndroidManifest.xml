@@ -22,10 +22,7 @@
         <activity
             android:name=".Activity2"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ArtActivity"
-            android:label="@string/title_activity_art"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ArtActivity" />
     </application>
 
 </manifest>
