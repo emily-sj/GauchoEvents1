@@ -105,15 +105,17 @@ public class    MainActivity extends AppCompatActivity
             Intent i = new Intent(this, GreekLife.class);
             startActivity(i);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_launcher) {
             Intent i = new Intent(this, Today.class);
             startActivity(i);
 
         } else if (id == R.id.nav_send) {
             Intent i = new Intent(this, Tomorrow.class);
             startActivity(i);
-
         }
+       else if (id == R.id.nav_share) {
+                Intent i = new Intent(this, Contact.class);
+                startActivity(i); }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

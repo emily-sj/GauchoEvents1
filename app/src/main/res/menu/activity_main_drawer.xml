@@ -27,8 +27,8 @@
     <item android:title="What Events are Happening:">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@android:drawable/arrow_up_float"
+                android:id="@+id/nav_launcher"
+                android:icon="@mipmap/ic_launcher"
                 android:title="Today" />
             <item
                 android:id="@+id/nav_send"
