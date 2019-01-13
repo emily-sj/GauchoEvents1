@@ -7,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class ArtActivity extends AppCompatActivity {
+public class GreekLife extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_art);
+        setContentView(R.layout.activity_greek_life);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,6 +22,6 @@ public class ArtActivity extends AppCompatActivity {
             }
         });
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Art/Humanities");
+        actionBar.setTitle("Greek Life");
     }
 }

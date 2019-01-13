@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ArtActivity">
+    tools:context=".Contact">
 
-    <include layout="@layout/content_art" />
+    <include layout="@layout/content_contact" />
 
 </android.support.constraint.ConstraintLayout>

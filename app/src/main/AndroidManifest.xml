@@ -22,37 +22,13 @@
         <activity
             android:name=".Activity2"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Stem"
-            android:label="@string/title_activity_stem"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Sports"
-            android:label="@string/title_activity_sports"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".GreekLife"
-            android:label="@string/title_activity_greek_life"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Today"
-            android:label="@string/title_activity_today"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Tomorrow"
-            android:label="@string/title_activity_tomorrow"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Contact"
-            android:label="@string/title_activity_contact"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ArtActivity"></activity>
+        <activity android:name=".ArtActivity" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Stem" />
+        <activity android:name=".Today" />
+        <activity android:name=".Tomorrow" />
+        <activity android:name=".GreekLife"></activity>
     </application>
 
 </manifest>
